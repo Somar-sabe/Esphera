@@ -4,9 +4,9 @@
     background-color: #666;
     justify-content: space-between;
     align-items: center;
-    position: fixed; /* Set the navbar to a fixed position */
-    top: 0; /* Position it at the top of the viewport */
-    width: 100%; /* Make the navbar span the entire width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     z-index: 999;
 }
 .bunus{
@@ -38,7 +38,7 @@
         .sport ul {
             display: flex;
             flex-direction: row;
-            list-style-type: none; /* Remove default list styles */
+            list-style-type: none; 
             padding: 0; 
         }
         .sport ul li {
@@ -84,30 +84,27 @@
 
 
       }
-      /* Base styles for .navbar, .En, and .sport */
-/* ... (existing CSS code) ... */
 
-/* Media query for tablet-sized devices */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column; /* Switch to a column layout for smaller screens */
+        flex-direction: column; 
     }
     .En {
-        flex-direction: column; /* Switch to a column layout for smaller screens */
-        margin-right: 0; /* Remove the right margin */
-        align-items: flex-start; /* Align items to the start */
-        padding: 5px; /* Adjust padding */
+        flex-direction: column; 
+        margin-right: 0; 
+        align-items: flex-start; 
+        padding: 5px; 
     }
     .sport {
-        margin-top: 10px; /* Add margin to separate from .En section */
+        margin-top: 10px; 
     }
     .bitball,
     .reg {
-        margin-left: 0; /* Reset margin */
-        margin-top: 10px; /* Add margin top for spacing */
+        margin-left: 0; 
+        margin-top: 10px; 
     }
     input {
-        width: 100%; /* Make input fields full width */
-        margin-bottom: 10px; /* Add margin at the bottom for spacing */
+        width: 100%; 
+        margin-bottom: 10px; 
     }
 }
