@@ -1,0 +1,74 @@
+.how{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* General styles */
+.howdo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* General styles */
+
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between boxes */
+    
+}
+.boxs {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    text-align: left; 
+    padding: 20px; 
+    border: 1px solid #ffe111;
+    border-radius: 10%;
+}
+.box {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    text-align: left; 
+   
+}
+
+.box img {
+    max-width: 100px;
+    height: auto; 
+    margin-right: 20px; 
+}
+.boxs img {
+    max-width: 100px;
+    height: auto; 
+    margin-right: 20px; 
+}
+
+
+@media screen and (min-width: 768px) {
+   .boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Spacing between boxes */
+   }
+    .box {
+        flex-direction: row;
+        background-color: #666;
+    }
+    .boxs {
+        flex-direction: row;
+        background-color: #666;
+    }
+
+    .box img {
+        max-width: 150px; 
+    }
+    .boxs img {
+        max-width: 150px; 
+    }
+}
+
+/*header*/
+

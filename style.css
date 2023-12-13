@@ -1,0 +1,111 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #666;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+.bunus{
+    display: flex;
+    flex-direction: column;
+   
+}
+.En{
+    
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 15px; 
+    margin-right: 10px; 
+    justify-content: flex-start;
+    align-items: center;
+    }
+
+.sport{
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    
+    justify-content: space-between;
+    width: 100%;
+        }
+        .sport ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none; /* Remove default list styles */
+            padding: 0; 
+        }
+        .sport ul li {
+            text-decoration: none; 
+            color: white;
+            margin-right: 100px;
+        }
+
+      input{
+        line-height: 32px;
+    height: 32px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #2e3b48;
+    border-radius: 10px;
+    border-color: #2e3b48;
+    color: white;
+      }
+      .bitball{
+        height: 30px;
+        color: #202f69;
+        border: none;
+        font-size: 13px;
+        line-height: 30px;
+        border: 1px solid transparent;
+        font-weight: 700;
+        text-transform: uppercase;
+        height: 32px;
+        display: inline-block;
+        line-height: 30px;
+        background-color: #21d8f8;
+        border-radius: 10px;
+        padding: 0 10px;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-left: 20px;
+      }
+      .reg{
+        margin-left: 20px;
+        color: #22d8f7 !important;
+    border-color: #22d8f7 !important;
+    background-color: transparent !important;
+
+
+      }
+      /* Base styles for .navbar, .En, and .sport */
+/* ... (existing CSS code) ... */
+
+/* Media query for tablet-sized devices */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Switch to a column layout for smaller screens */
+    }
+    .En {
+        flex-direction: column; /* Switch to a column layout for smaller screens */
+        margin-right: 0; /* Remove the right margin */
+        align-items: flex-start; /* Align items to the start */
+        padding: 5px; /* Adjust padding */
+    }
+    .sport {
+        margin-top: 10px; /* Add margin to separate from .En section */
+    }
+    .bitball,
+    .reg {
+        margin-left: 0; /* Reset margin */
+        margin-top: 10px; /* Add margin top for spacing */
+    }
+    input {
+        width: 100%; /* Make input fields full width */
+        margin-bottom: 10px; /* Add margin at the bottom for spacing */
+    }
+}
