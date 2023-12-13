@@ -8,6 +8,8 @@
     top: 0; 
     width: 100%; 
     z-index: 999;
+    border: 0,3px solid #22d8f7;
+   
 }
 .bunus{
     display: flex;
@@ -19,7 +21,7 @@
     display: flex;
     flex-direction: row;
     color: white;
-    padding: 15px; 
+    padding: 4px; 
     margin-right: 10px; 
     justify-content: flex-start;
     align-items: center;
@@ -31,7 +33,6 @@
     flex-direction: column;
     color: white;
     align-items: flex-start;
-    
     justify-content: space-between;
     width: 100%;
         }
