@@ -3,19 +3,18 @@
     flex-direction: column;
     align-items: center;
 }
-/* General styles */
+
 .howdo{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* General styles */
 
 
 .boxes {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Spacing between boxes */
+    gap: 10px; 
     
 }
 .boxs {
@@ -72,5 +71,5 @@
     }
 }
 
-/*header*/
+
 
