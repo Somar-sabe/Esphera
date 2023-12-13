@@ -1,3 +1,5 @@
+
+
 .navbar{
     display: flex;
     flex-direction: column;
@@ -44,8 +46,10 @@
         }
         .sport ul li {
             text-decoration: none; 
-            color: #22d8f7;
-            margin-right: 100px;
+            color: rgb(228, 228, 237);
+            margin-right: 60px;
+            font-size: 16px;
+            width: 50px;
 
         }
 
@@ -101,10 +105,7 @@
     .sport {
         margin-top: 10px; 
     }
-    .sport ul{
-        display: flex;
-        flex-direction: column;
-    }
+
     .bitball,
     .reg {
         margin-left: 0; 
@@ -114,4 +115,21 @@
         width: 100%; 
         margin-bottom: 10px; 
     }
+
+    .sport ul {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        padding: 0; 
+    }
+    
+    .sport ul li {
+       
+        margin-bottom: 10px; 
+        list-style: none; 
+        text-align: center; 
+        box-sizing: border-box; 
+        padding: 5px; 
+    }
+    
 }
