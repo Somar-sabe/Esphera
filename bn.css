@@ -51,7 +51,7 @@
    .boxes{
     display: flex;
     flex-direction: row;
-    gap: 10px; /* Spacing between boxes */
+    gap: 10px; 
    }
     .box {
         flex-direction: row;
@@ -60,6 +60,8 @@
     .boxs {
         flex-direction: row;
         background-color: #666;
+        border: 1px solid #ffe111;
+        border-radius: 10%;
     }
 
     .box img {
