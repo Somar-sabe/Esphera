@@ -43,8 +43,9 @@
         }
         .sport ul li {
             text-decoration: none; 
-            color: white;
+            color: #22d8f7;
             margin-right: 100px;
+
         }
 
       input{
@@ -87,7 +88,8 @@
 
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column; 
+        flex-direction: column;
+        position: relative !important; 
     }
     .En {
         flex-direction: column; 
@@ -97,6 +99,10 @@
     }
     .sport {
         margin-top: 10px; 
+    }
+    .sport ul{
+        display: flex;
+        flex-direction: column;
     }
     .bitball,
     .reg {
